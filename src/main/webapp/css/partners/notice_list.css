@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+button{
+    cursor: pointer;
+}
+/* ================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px 20px 190px 20px ;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:38px;
+}
+.nav{
+	display:flex;
+    width: 100%;
+}
+.nav li{
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-top: 3px solid #d9d9d9;
+    border-right: 3px solid #d9d9d9;
+     
+}
+.nav li:hover{
+    border-top:3px solid #000 ;
+    border-right:3px solid #000 ;
+    border-left:3px solid #000 ;
+    border-bottom: none;
+    font-weight: bold;
+}
+.nav li:first-child{
+    border-left:2px solid #d9d9d9 ;
+    
+}
+.nav li:first-child:hover{
+    border-left:3px solid #000;
+}
+.nav li a{
+    
+}
+.content{
+    width: 1500px;
+}
+
+.main_title{
+	border-bottom:1px solid #a7a7a7;
+	display:flex;
+	width:100%;
+}
+
+.main_title div{
+	border-right: 1px solid #a7a7a7;
+}
+
+.main_title_header{
+	background-color:#666;
+}
+
+.main_title_list{
+	border-right: 1px solid #a7a7a7;
+	border-left: 1px solid #a7a7a7;
+	border-bottom: 1px solid #a7a7a7;
+}
+.main_title_list:hover{
+	background-color:#ddd;
+	cursor: pointer;
+}
+.main_title_list:hover{
+	background-color:#ddd;
+	cursor: pointer;
+}
+.main_title_td{
+	text-align: center;
+	color:#fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.main_title_td1,
+.main_title_td2,
+.main_title_td3,
+.main_title_td4{
+	height:40px;
+	line-height: 40px;
+}
+
+.main_title_td1{
+	width:5%;
+	text-align: center;
+}
+.select_notice:hover{
+	background-color: #eee;
+}
+.main_title_td2{
+	width:10%;
+	text-align: center;
+}
+.main_title_td3{
+	width: 70%;
+	padding-left: 15px;
+}
+.main_title_td4{
+	width: 15%;
+	text-align: center;
+}
+
+.content{
+	width:100%;
+}
+.main{
+	margin-bottom:50px;
+	display:block;
+	width:100%;
+	border:1px solid #a7a7a7;
+}
+
+.main_content_div{
+	height:0px;
+	overflow:hidden;
+	transition-property: height;
+	transition-duration: 0.5s;
+}
+
+.main_content_div div{
+	padding:15px 40px;
+	background-color:#eee;
+	min-height: 100px;
+}
+
+
+.number{
+    text-align: center;
+}
+.number a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.number a:hover{
+    color: #fff;
+    background-color: #396ef3;
+    border: 1px solid #fff;
+}
+.number .arrow{
+    border: none;
+    margin: -5px;
+}
+.number .arrow:hover{
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+.input{
+    position: relative;
+    height:37px;
+    margin-top: 23px;
+    text-align: center;
+}
+.input_btn{
+    position: absolute;
+    top: 0;
+    right: 536px;
+}
+.input select{
+    width: 117px;
+    height:37px;
+    text-align: center;
+    line-height: 52px;
+    margin-right: 27px;
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.input_btn input{
+    width: 392px;
+    height:37px;
+    border: 1px solid #000;
+}
+.input_btn .button{
+    position: absolute;
+    top: 0;
+    right: -128px;
+    width: 102px;
+    height:37px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}

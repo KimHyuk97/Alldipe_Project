@@ -1,0 +1,135 @@
+.top_bg {
+    min-width: 600px;
+    width: 100%;
+    padding: 28px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.partners_logo {
+    width: 342px;
+    height: 63px;
+    background: #333333;
+    margin: 0 auto;
+    background: url(../../fileF/partners/partnersLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partners_logo a{
+    display: block;
+    height: 100%;
+}
+
+.page_title {
+    min-width: 600px;
+    text-align: center;
+    margin: 54px 0 40px 0;
+    font-size: 22px;
+}
+
+
+.inner {
+    width: 600px;
+    margin: 0 auto;
+    border-top: 1px solid #333333;
+    position: relative;
+    padding-top: 50px;
+}
+
+.login_form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login_form input {
+    outline: none;
+}
+
+.user_id,
+.user_pw{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    text-indent: 20px;
+    font-size: 18px;
+    vertical-align: bottom;
+    border: 1px solid #cbcbcb;
+}
+
+input::placeholder {
+    color: #cbcbcb;
+    transform: translateY(1px);
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 30px;
+}
+
+.user_pw {
+    margin: 20px 0 10px 0;
+}
+
+.user_info {
+    font-size: 14px;
+    color: #c8c8c8;
+}
+
+.user_info a {
+    color: #868686;
+}
+
+.user_info .login_checkbox{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.user_info label {
+    margin-right: 106px;
+}
+
+.user_info .id_find {
+    position: relative;
+    margin-right: 15px;
+}
+
+.user_info .id_find::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    top: 2px;
+    height: 14px;
+    position: absolute;
+    background: #868686;
+    transform: translateX(8px);
+}
+
+.login_btn,
+.join_btn {
+    width: 322px;
+    height: 50px;
+    margin-left: 14px;
+    font-size: 17px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.login_btn{
+    background: #396ef8;
+    border: 0;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.join_btn {
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #cbcbcb;
+    margin: 10px 0 162px 14px;
+}
+
+.join_btn a {
+    display: block;
+}

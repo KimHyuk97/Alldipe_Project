@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+button, li{
+    cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+.cont_wrap{
+    width: 1630px;
+    margin: 0 auto;
+    padding: 40px 40px 100px 40px;
+}
+.top_tit{
+    margin-bottom:30px ;
+    padding-bottom: 7px;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.top_tit h2{
+    margin-bottom: 40px;
+}
+.top_tit p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.content{
+    border-bottom: 2px solid #000;
+}
+.cont_tit{
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.cont_tit p{
+    display: inline-block;
+    width: 170px;
+}
+.cont_txt{
+    display: inline-block;
+}
+.cont{
+    margin-bottom: 20px;
+}
+.cont01 .cont_txt label input{
+    margin-right: 10px;
+}
+.cont01 .cont_txt label:nth-child(2) input{
+    margin-left: 20px;
+}
+.cont01 .cont_txt label:nth-child(3) input{
+    margin-left: 20px;
+}
+.cont02 .cont_txt select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.cont03 .cont_txt input{
+    width: 400px;
+    height: 26px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.cont04 textarea{
+    width: 1060px;
+    height: 500px;
+}
+.cont05 .cont_txt input{
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+}
+.btn_box{
+    text-align: center;
+}
+.btn_box input[type="submit"]{
+    width: 130px;
+    height: 50px;
+    border:none;
+    background: #396ef3;
+    border-radius: 5px;
+}
+button{
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #396ef3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    
+}

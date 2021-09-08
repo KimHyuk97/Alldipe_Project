@@ -1,0 +1,47 @@
+/*메인페이지 이미지 슬라이드*/
+a.allviwe { border: 1px solid #e5e5e5;  padding: 3px; border-radius: 3px;  position: absolute;  right: 35em;	margin-top: -30px;}
+	
+li.ponlayout{height: 300px;  float: left; position: relative; margin: 10px 2px 0 10px;   background: #fff; border:1px solid #e5e5e5;}
+.letGo{position: absolute; top: 20em; left: 1.5em; padding: 10px 8px 10px 13px;  background: #585858; width: 20px; border: 1px solid #585858; opacity: 0.5;}
+	
+li.ponlayout:hover{border:1px solid #396ef3;}
+a.allviwe2 { color: #396ef3;  font-size: 14px; font-weight: 400;}
+	
+	
+ul.maincateul { display: flex;}
+li.maincateli { font-size: 30px;  width: 15%;  text-align: center; margin-top: 10px; font-weight: 700;}
+li.maincateli3 { width: 73%;  margin: 0 0 0 38px;}
+	
+li.keywordstyle {  font-size: 14px; font-weight: 400; border: 1px solid #396ef3;  margin: 12%;  padding: 3%; border-radius: 22px;}
+li.keywordstyle:hover a {color: #396ef3;}
+	
+.main_title::before {position: absolute; border: 1px solid #ccc; left: -11px; width: 43%; height: 1px; top: 47%;	background: #ccc;	content: '';}
+	
+.main_title::after {position: absolute; border: 1px solid #ccc; left: 58%; width: 42%; height: 1px; top: 47%; background: #ccc; content: '';}
+	
+.main_title{position:relative;}
+	
+.mainSwiper{width: 1200px; overflow:hidden; margin: 0 auto; position: relative;}
+.mainSwiperUl{display: flex; flex-direction: row; align-items: center;  position: relative; top: 0; left: 0; }
+.mainSwiperLi{width:1200px; height: 500px; }
+#mainPrev{position: absolute; top:45%; left : 2em;}
+#mainNext{position: absolute; top:45%; right: 2em;}
+.mainSwiperBtn{position: absolute; top: 90%; right: 1em;}
+.mainSwiperBtn span{color:#fff;}
+.spanMeun{background: rgba(0,0,0,0.45); border-radius: 18px; padding: 9px 40px 9px 20px; text-align: start; position: relative; top: 2px; left: -7px; font-size: 13px; font-weight: 200;}
+.ulView11{position:absolute; top:0; left:0; height: 100%; overflow: hidden; display: flex;} 
+.ulView22{display: list-item; width: 89%; height: 66%; margin: 70px;}
+.ulView22 li{width: 250px; float: left;  margin: 7px;}
+.ulView22 li img{width: 250px; height: 100px;}
+.ulViewController{position: relative; width: 1200px; height: 100%; margin: 0 auto; overflow: hidden;}
+
+.rightImg{border-radius:5px; width:90px; height:125px; margin-bottom:5px; border: 1px solid #d2d2d2;}
+.alldipeService{display: flex; text-align: center; justify-content: space-between; font-size:16px;}
+
+.playRolling{position: absolute; top: 1px; right: 0px; background: rgba(0,0,0,0.45);  padding: 8px; border-radius: 18px;}
+.rollingView{background: rgba(0,0,0,0.45); border-radius: 18px; padding: 9px 15px; color: #fff; font-weight: 100; font-size: 13px;}
+
+#viewController22{position: absolute; top: 0; left: 0; display: none; height: 100%; background: rgba(0,0,0,0.8); width: 100%;}
+.rollingViewClose{position: absolute;  top: 89.5%;  right: 1em;  border: 2px solid #333;;  background: black; border-radius: 20px;  padding: 9px 30px; color: #fff; font-weight: 100; font-size: 13px; z-index: 10000;}
+#mainPrev22{position: absolute; top: 45%; left: 2em; z-index: 10000;}
+#mainNext22{position: absolute; top: 45%; right: 2em; z-index: 10000;}

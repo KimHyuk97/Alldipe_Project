@@ -1,0 +1,238 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inner{
+    width: 1440px;
+    margin: 0 auto;
+    height: auto;
+}
+
+header{
+    height: 94px;
+    width: 100%;
+}
+
+header .partners_logo{
+    width: 264px;
+    height: 48px;
+    background: url(../../fileF/partners/partnersLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 23px;
+    float: left
+}
+
+header .partners_logo a{
+    display: block;
+    height: 100%;
+}
+
+header nav{
+    float: left;
+    height: 48px;
+    width: calc(100% - 264px);
+    line-height: 48px;
+    position: relative;
+    margin-top: 23px;
+}
+
+header nav ul{
+    display: inline-block;
+}
+
+header nav ul.top_menu01{
+    margin-left: 50px;
+}
+
+header nav ul.top_menu02{
+    position: absolute;
+    right: 0;
+}
+
+header nav ul li{
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    font-size: 17px;
+    
+}
+
+header nav ul li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    top: 17px;
+    height: 14px;
+    position: absolute;
+    background: #868686;
+    transform: translateX(10px);
+    
+}
+
+header nav ul li:last-child:after{
+    width: 0;    
+}
+
+.main_baner{
+    width: 1870px;
+    height: 550px;
+    margin: 0 auto;
+    background: gray;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    display: none;
+}
+.main_baner .swiper-button-prev, .main_baner .swiper-button-next{
+    width: 50px;
+    height: 50px;
+}
+
+.main_baner .swiper-button-prev{
+    left: 165px;
+    background: url(../../fileF/swiper/next_ffffff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transform: rotate(180deg);
+    
+}
+
+.main_baner .swiper-button-next{
+    right: 165px;
+    background: url(../../fileF/swiper/next_ffffff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cont_menu{
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 75px 0; 
+}
+
+.cont_menu a{
+    float: left;
+    width: 250px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    background: #396ef3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cont_menu a:nth-child(2){
+    margin: 0 20px;
+}
+
+.cont_box01, .cont_box02{
+    width: 100%;
+    height: 498px;
+    margin-bottom: 50px;
+    background: gray;
+}
+
+.cont_box03, .cont_box04{
+    width: 100%;
+    height: 625px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    
+}
+
+.cont_box03 .cont_title, .cont_box04 .cont_title{
+    display: flex;
+    justify-content: center;
+    margin: 23px 0 24px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.cont_box03 .cont_list{
+    width: 450px;
+    height: 500px;
+    background: gray;
+    float: left;
+
+}
+
+.cont_box03 .cont_list a {
+    display: block;
+    height: 100%;
+}
+
+.cont_box03 .swiper-button-next, .cont_box03 .swiper-button-prev, .cont_box04 .swiper-button-next, .cont_box04 .swiper-button-prev{
+    position: absolute;
+    top: 23px;
+    width: 18px;
+    height: 28px;
+    outline: none;
+    margin: 0;
+}
+
+.cont_box03 .swiper-button-next, .cont_box04 .swiper-button-next{
+    right: 0;
+    background: url(../../fileF/swiper/next_396ef3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.cont_box03 .swiper-button-prev, .cont_box04 .swiper-button-prev{
+    right: 28px;
+    left: inherit;
+    background: url(../../fileF/swiper/next_396ef3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+
+
+
+
+.cont_box04 .cont_list{}
+
+.cont_box04 .cont_list .cont_info_box {
+    width: 530px;
+    height: 500px;
+    background: gray;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.cont_box04 .cont_list .cont_video_box{
+    width: calc(100% - 550px);
+    height: 500px;
+    float: left;
+}
+
+.cont_box04 .cont_list .cont_video_box video{
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 240px;
+    background: #d1d1d1;
+    margin-top: 150px;
+}
+
+.footer_wrap{
+    width: 100%;
+    height: 240px;
+    background: gray;
+}

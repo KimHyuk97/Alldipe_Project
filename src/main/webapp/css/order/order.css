@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+.orderContainer{width:1200px; margin:0 auto; padding:40px 0;}
+.mainTitle h1{font-size: 25px; font-weight: bold;}
+.subTitle h3{
+	font-size:18px;
+	height:30px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.orderor table { width:100%; border-top:1px solid; border-bottom:1px solid #f4f4f4; padding:20px 0;}
+.orderor tr th, .deliveryTitle tr th{
+	width:30%; text-align:start; font-size:14px; padding:8px 15px; font-weight:bold;
+	background-color:#eee;
+}
+
+.orderor table tr td{
+	padding-left: 8px;
+	font-size: 14px;
+}
+
+.sec01{
+	margin-top:40px;
+	width:100%;
+	display: flex;
+	justify-content : space-around;
+}
+.sec01_sub{
+	width:48%;
+}
+
+.subTitle{margin-bottom:25px;}
+
+
+/*배송지 정보*/
+.deliveryTitle{margin:20px 0;}
+.deliveryTitle p{margin-bottom: 10px; font-size: 14px; padding-left: 10px;}
+
+.deliveryTitle table { width:100%; border-top:1px solid; border-bottom:1px solid #f4f4f4; padding:20px 0;}
+
+
+.deliveryMod,.dcreate{ background: #E0ECF8; color: #396ef3; font-weight: bold; border-radius: 3px; border:none; padding: 5px 15px; margin-left: 30px;}
+
+.deliveryWay{display:flex; align-items: center;margin-left: 10px;}
+.radioBtn {display: block; position: relative; padding-left: 30px; margin-right: 30px; cursor: pointer; font-size: 14px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none; user-select: none;}
+.radioBtn input {position: absolute;opacity: 0;cursor: pointer;}
+.radioCheck {position: absolute; top: 0px; left: 0; height: 20px; width: 20px; background-color: #eee; border-radius: 50%;}
+.radioCheck02 {
+	 top: 18px;
+}
+.radioBtn:hover input ~ .radioCheck {background-color: #ccc;}
+.radioBtn input:checked ~ .radioCheck {background-color: #396ef3;}
+.radioCheck:after {content: ""; position: absolute; display: none;}
+.radioBtn input:checked ~ .radioCheck:after {display:block;}
+.radioBtn .radioCheck:after {top: 6px; left: 6px; width: 8px; height: 8px; border-radius: 50%; background: white;}
+
+.pr{font-size: 14px !important; font-weight: bold; color: #396ef3; margin: 10px; background: #E0ECF8; padding: 15px; border-radius: 5px; width: 400px;}
+
+#deliveryPopup,#deAdd,#deliveryMod22,#deliveryadd22{display: none; width: 100%; height: 100%; background: rgba(0,0,0,0.8); position: fixed; z-index: 1000; top: 0; left: 0;}
+.deliveryMode{border: 1px solid #f4f4f4; background: #fff; width: 600px; height: 700px; box-shadow: -2px 1px 20px 2px grey; border-radius: 10px; padding: 30px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); msTransform: translate(-50%, -50%); webkitTransform: translate(-50%, -50%);}
+.dNm h1{font-size: 40px; font-weight: bold; text-align: center; margin-bottom: 35px;}
+.dNm{}
+#newDelivery {border: none; background: none; font-size: 20px; font-weight: bold; border-top: 1px solid #f4f4f4; width: 90%; position: absolute; bottom: 0; padding: 15px 0; cursor: pointer;}
+.dclose {position: absolute; right: 30px; border: none; background: none; font-size: 20px; cursor: pointer;}
+.deliveryMode h1{font-size: 40px; font-weight: bold; text-align: center;}
+.deliveryMode table { width:100%; border-top:1px solid; padding:20px 0;}
+.deliveryMode tr th {vertical-align: middle; text-align:center; border-bottom:1px solid #f4f4f4; padding:20px; font-weight:bold;}
+.deliveryMode tr td {text-align:center; border-bottom:1px solid #f4f4f4; padding:30px; vertical-align: middle;}
+.dimp{text-align: start !important; display: flex; flex-direction: column; justify-content: space-between; height: 85px;}
+.deliveryMode table input[type='text'] {width: 294px; background: none; border: none; padding-bottom: 5px; font-size: 17px; outline: none; position: relative;  top: 5px;}
+.modBtn {width: 140px; height: 45px; margin: 55px auto; display: block; background: #396ef3 !important; border-radius: 5px; color: #fff; font-size: 20px; font-weight: bold;}
+.addFont{text-align: start; margin-left: 25px;}
+.deliveryMode input[type='button'] {border: none;background: none; cursor: pointer;}
+.dadd { width: 89%; height: 60px; border-top: 1px solid #f4f4f4 !important; position: absolute; bottom: 0; font-size: 20px;}
+
+.checkDDD{background: url(../../fileF/checkbox/check-mark01.png) !important; background-size: 30px !important; background-color: transparent !important; background-repeat: no-repeat !important; width: 30px; height: 30px;}
+.modImage{background: url(../../fileF/checkbox/mod.png) !important; background-size: 24px !important; background-color: transparent !important; background-repeat: no-repeat !important; width: 24px; height: 24px;}
+
+.subDDD {width: 95%; margin: 30px 0 0 10px;}
+.subDDD input {width: 100%; height: 45px; padding: 10px;font-size: 15px; border-radius: 5px; border: 1px solid #ddd;  outline: none;}
+.subDDD h1 { font-size: 15px; margin-bottom: 15px; font-weight:bold;}
+
+.addIssues{width: 400px; height: 45px; padding: 10px; margin-left:10px; border-radius: 5px; border: 1px solid #ddd; outline: none;}
+.pd{font-size: 14px !important; margin: 5px 2px; color: #333;}
+
+
+/*상품정보*/
+.sec02{
+	margin-top:30px;
+}
+
+.orderGoodsContainer p{
+	font-size: 14px;
+}
+
+.brand_name{
+	color:#666;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.item_name {
+	width:200px;
+	height: 60px;
+	line-height: 20px;
+	word-break:break-all;
+	overflow: hidden;
+	font-size:14px;
+}
+
+.order_info {
+	height: 40px;
+	line-height: 20px;
+	font-size: 14px;
+	color:#333;
+	margin:5px 0;
+}
+
+.orderGoods table{width:100%; border-top: 1px solid;}
+.orderGoods table tr{border-top:1px solid;}
+.orderGoods table tr th{padding:10px 0; vertical-align: middle; font-size:14px; text-align: center; font-weight:bold; background-color:#eee;}
+.orderGoods table tr td {vertical-align: middle; border-bottom: 1px solid; text-align: center;}
+.orderGoods table tr td:last-child{border-right: none;}
+.orderFlex{display:flex; padding: 15px;}
+.orderFlex > .orderGoodsContainer{display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start; padding-left: 15px; text-align: start; margin-left: 15px;}
+
+
+/* 결제 정보 */
+
+.sec03, .sec04{
+	margin-top:40px;
+}
+
+
+
+/*쿠폰사용여부*/
+.couponFl table{width:100%; border-top:1px solid #b2b2b2; border-bottom:1px solid #b2b2b2;}
+.couponFl table tr{border-top:1px solid #b2b2b2; height:55px; line-height: 55px;}
+.couponFl table tr th{width:15%; border-right:1px solid #b2b2b2; font-weight:bold; font-size : 14px; text-align: start; padding:5px 10px 0;}
+.couponFl table tr td{width:70%; padding:5px 10px 0;}
+
+/*결제 금액*/
+.paymentFlex{display: flex; width:100%; border-top: 1px solid; border-bottom: 1px solid; justify-content: space-around; align-items: center; text-align: center;}
+.paymentFlex_1{width:30%; font-size:20px; font-weight:bold;}
+.paymentFlex_3{width:30%; font-size:20px; font-weight:bold;}
+.paymentFlex_3 span{color:#396ef3;}
+.paymentFlex_2{width:40%;}
+.paymentFlex_2 table{width:100%; border-left:1px solid; border-right:1px solid;}
+.paymentFlex_2 table tr th{width:50%; padding:20px; font-weight:bold;}
+.paymentFlex_2 table tr td{width: 50%; padding: 20px 0; text-align: center;}
+
+/*결제버튼, 동의버튼*/
+#buyBtn input[type="button"]{margin: 50px auto; padding: 12px 100px; border-radius: 5px; cursor: pointer; display: block; color: #fff; font-size: 25px; border: none; background: #396ef3; font-weight: bold;}
+
+.box_02 {width: 100%;height: auto; margin: 30px 0;}
+
+.box_02 div {position: relative;height: 40px;margin-top: 10px;line-height: 40px;}
+
+.box_02 div:first-child {margin-top: 20px;}
+
+.box_02 div input {margin: 0;padding: 0;width: 40px;height: 40px;position: absolute;left: 0;box-sizing: border-box;}
+
+.checkBox_1{
+	margin-top: 10px;
+}
+.checkBox_1 input[type="checkbox"] {position: absolute;width: 40px;height: 40px;padding: 0;margin: -1px;overflow: hidden;border: 0;opacity: 0;z-index: 10;cursor: pointer;}
+
+.checkBox_1 input[type="checkbox"]+label {display: inline-block;position: relative;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;}
+
+.checkBox_1 input[type="checkbox"]+label::before {content: " ";display: inline-block;width: 40px;height: 40px;line-height: 40px;margin: -2px 20px 0 0;text-align: center;vertical-align: middle;background: url(../../fileF/checkbox/check-mark.png);background-size: cover;background-repeat: no-repeat;border-radius: 50%;}
+
+.checkBox_1 input[type="checkbox"]:checked+label::before {background: url(../../fileF/checkbox/check-mark01.png);background-size: cover;	background-repeat: no-repeat;}
+
+.box_02 div p {position: absolute;}
+
+.box_02 div label {position: absolute;left: 0;font-size: 14px;line-height: 40px;}
+
+.box_02 div label span {color: #4d7cf4;}
+
+.box_02 div a {position: absolute;right: 0;font-size: 14px;color: #2348a3;}
+
+.transType , #paymethodClick{display:flex;}
+
+
+.order_result_container{width:1200px; margin: 0 auto;}
+.order_result_title{margin: 30px 0;}
+.order_result_title h1{font-size: 30px; font-weight: bold; margin-bottom: 10px;}
+
+.order_result_title2{display: flex; width: 30%; justify-content: space-between;}
+.order_result_title2 span{font-weight: bold; margin-left:10px; }
+
+.deliveryInfo{margin-bottom:15px;}
+.deliveryInfo p{margin-bottom: 10px;}
+
+
+.orderInfo{display:flex; width :100%; flex-wrap: wrap; margin-top: 60px; justify-content: space-between;}
+.orderInfoContainer{width:45%; height: 450px;}
+.orderInfoContainer h1 { font-size: 20px; font-weight: bold; margin-bottom: 15px;}
+.orderInfoContainer table {width:100%; border-top:1px solid; padding:20px 0;}
+.orderInfoContainer table tr{border-bottom:1px solid #f4f4f4;}
+.orderInfoContainer tr th {width:30%; text-align:start; padding:15px; font-weight:bold;}
+.pr2{font-size: 14px !important; font-weight: bold; color: #396ef3; margin-top: 20px; background: #E0ECF8; padding: 15px; border-radius: 5px;}
+
+
+
+.selectBtn{text-align: center; margin-bottom: 80px;}
+.selectBtn a{font-size: 25px; padding: 20px 85px; border: none; background: #396ef3; border-radius: 10px; color: #fff;}
+
+
+/*쿠폰*/
+#couponFied { background: none; border: 2px solid #396ef3; border-radius: 5px; padding: 10px 15px; color: #396ef3; font-size: 15px; font-weight: bold; cursor: pointer;}
+#couponFied:hover{background:#396ef3; color:#fff;}
+#couponMode{display:none; z-index:100; border: 1px solid #f4f4f4; background: #fff; width: 1200px; box-shadow: -2px 1px 20px 2px grey; border-radius: 10px; padding: 30px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); msTransform: translate(-50%, -50%); webkitTransform: translate(-50%, -50%);}
+#couponMode h1 {font-size: 30px; font-weight: bold; margin-bottom: 30px;}
+#couponMode #cClose {cursor:pointer; border: none; background: none; font-size: 25px; position: absolute; top: 36px; right: 40px;}
+.goodsList table{width:100%; border-top: 1px solid;}
+.goodsList table tr{border-top:1px solid;}
+.goodsList table tr th{padding:10px 0; vertical-align: middle; text-align: center; font-weight:bold;}
+.goodsList table tr td {vertical-align: middle; border-bottom: 1px solid #f4f4f4;text-align: center;}
+.goodsList table tr td:last-child{border-right: none;}
+#couponModeBtn input[type="button"]{cursor:pointer; margin: 40px auto; display: block; border: none; border-radius: 5px; background: #396ef3; color: #fff; font-size: 17px; font-weight: bold; width: 150px; height: 50px;}
+.couponNote{font-size: 14px !important; font-weight: bold; color: #396ef3; margin-top: 20px; background: #E0ECF8; padding: 15px; border-radius: 5px;}
+.orderGoodsTitle input[type="button"]{cursor: pointer; border: 1px solid #396ef3; border-radius: 5px;  background: #fff; color: #396ef3; font-size: 14px; width: 80px; height: 35px;}
+
+#couponListModal{display: none; z-index: 1050; width: 100%; height: 100%; background: rgba(0,0,0,0.8); position: fixed; z-index: 1000; top: 0; left: 0; border-radius: 10px;}
+.couponList{display:block; border: 1px solid #f4f4f4; background: #fff; width: 800px; height: 500px; box-shadow: -2px 1px 20px 2px grey; border-radius: 10px; padding: 30px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); msTransform: translate(-50%, -50%); webkitTransform: translate(-50%, -50%);}
+.couponListTitle{display:flex;}
+.couponListTitle h1{font-size:20px !important; font-weight: bold; margin: 0 10px 0 0 !important;}
+.couponListTitle span{font-size:14px;}
+.couponList table{width:100%; border-top: 1px solid;}
+.couponList table tr{border-top:1px solid;}
+.couponList table tr th{padding:10px 0; vertical-align: middle; text-align: center; font-weight:bold;}
+.couponList table tr td {vertical-align: middle; border-bottom: 1px solid #f4f4f4;text-align: center; padding: 10px 0;}
+.couponList table tr td:last-child{border-right: none;}
+
+.couponRealBtn{text-align: center; margin:30px 0;}
+.couponRealBtn input[type="button"]{width: 150px;  height: 50px; border-radius: 5px; background: #fff; border: 2px solid #396ef3; color: #396ef3; font-size: 17px; font-weight: bold; cursor: pointer;}
+.couponRealBtn input[type="button"]:last-child{margin-left:10px; background: #396ef3; border: none; color: #fff;}
+
+
+/*적립금*/
+.mileageFlex{display:flex; align-items: center; color: #b2b2b2; font-size: 14px;}
+.pr3{font-size: 14px !important; font-weight: bold; color: #396ef3; margin-top: 20px; background: #E0ECF8; padding: 15px; border-radius: 5px;}
+.mf{margin-right: 10px;}
+.mf input[type="text"]{background: none; border: 2px solid #ddd; border-radius: 5px; padding: 10px 15px; color: #333; font-size: 15px; font-weight: bold; outline: none; width: 134px;}
+.mf input[type="button"]{background: none; border: none; cursor: pointer; font-size: 15px; font-weight: bold;}
+.mf input[type="button"]:hover{color:#396ef3;}
+.mPrice{color: deepskyblue; font-weight: bold; font-size: 15px;}
+.mPrice2{color: orange; font-weight: bold; font-size: 15px;}

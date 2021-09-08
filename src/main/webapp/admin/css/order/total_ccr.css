@@ -1,0 +1,338 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+button, li{
+    cursor: pointer;
+}
+
+
+/* ================================= */
+.cont_wrap{
+    width: 1630px;
+    margin: 0 auto;
+    padding: 40px 40px 100px 40px;
+}
+.cont_wrap .top_tit01{
+    margin-bottom:30px ;
+    padding-bottom: 7px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.top_tit{
+    margin-bottom: 0;
+    padding: 40px;
+    border-bottom: 2px solid #737373;
+    font-weight: bold;
+}
+.top_tit h2{
+    display: inline-block;
+    width: 170px;
+    margin-bottom: 30px;
+}
+/*---------*/
+.content01{
+    display: none;
+}
+.content01.on{
+    display: block !important;
+}
+
+
+
+/*---------*/
+
+.nav{
+    position: relative;
+}
+.nav ul{
+    border-bottom: 2px solid #000;
+}
+.nav ul li{
+    display: inline-block;
+    width:300px ;
+    height: 60px;
+    border: 1px solid #bababa;
+    line-height: 60px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nav ul li:hover{
+    background-color: #fff0f2;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.nav ul li:nth-child(2){
+    margin-left: -5px;
+
+}
+.nav ul li:nth-child(3){
+    margin-left: -6px;
+
+}
+.nav button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 55px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.nav button:hover{
+    background-color: #396ef3;
+    color: #fff;
+}
+.nav button:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 167px;
+}
+
+
+/*---------*/
+
+#content01.on,#content02.on,#content03.on{
+    padding: 40px;
+}
+.content01.on{
+    padding: 40px;
+}
+.sch_check h2{
+    display: inline-block;
+    width: 170px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.sch_check label{
+    margin-right: 20px;
+}
+.sch_check label input{
+    margin-right: 15px;
+}
+.sch_check:nth-child(3) ul{
+    display: inline-block;
+}
+.sch_check:nth-child(3) ul li{
+    display: inline-block;
+}
+.sch_check:nth-child(2) input:nth-child(2){
+    width: 117px;    
+    height: 26px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(2) input:nth-child(3){
+    width: 250px;    
+    height: 26px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(3) select{
+    width: 117px;    
+    height: 30px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(3) input{
+    width: 150px;    
+    height: 26px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(3) ul li button{
+    height: 30px;
+    margin-right: -7px;
+    background-color: #fff;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(4) select:nth-child(2){
+    width: 200px;
+    height: 30px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(4) select:nth-child(3),.sch_check:nth-child(4) select:nth-child(4),.sch_check:nth-child(4) select:nth-child(5){
+    width: 150px;
+    height: 30px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(6) select{
+    width: 160px;
+    height: 30px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+.sch_check:nth-child(8) a{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #737373;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.sch_check:nth-child(8) label input{
+    margin-right: 0px;
+}
+.sch_check:nth-child(9) input{
+    width: 160px;
+    height: 26px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+}
+
+.sch_check:nth-child(11) select{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #737373;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.sch_check:nth-child(11) label input{
+    margin-right: 6px;
+}
+
+
+
+
+
+
+/*---------*/
+.cont_wrap .cont_box{
+    position: absolute;
+    margin: 30px 0;
+    border-top: 2px solid #000;
+}
+.cont_wrap .cont_box  p{
+    display: inline-block;
+    width: 175px;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+.cont_wrap .cont_box  p span{
+    color: #396ef3 !important;
+    font-size: 17px !important;
+}
+.cont_wrap .cont_box:nth-child(1) span{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+
+.btn_right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.btn_right button{
+    width: 130px;
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.btn_right select{
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+}
+.btn_right select:nth-child(1){
+    width: 120px;
+}
+.btn_right input[type="button"]{
+    width: 80px;
+    height: 30px;
+    color: #396ef3;
+    background-color: #fff;
+    border: 1px solid #396ef3;
+    border-radius: 3px;
+} 
+
+
+
+
+
+
+
+
+ table{
+    width: 1590px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+ table tr td{
+    height: 30px;
+    border: 1px solid #7a7a7a;
+    line-height: 30px;
+}
+
+ table tr:nth-child(1){
+    border-bottom: 2px solid #000;
+}
+ table tr:nth-child(1) td:nth-child(2n){
+    background-color: #e0ffc7;
+}
+ table tr:nth-child(1) td:nth-child(2n-1){
+    background-color: #fad2db;
+}

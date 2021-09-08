@@ -1,0 +1,204 @@
+.top_bg {
+    min-width: 600px;
+    width: 100%;
+    padding: 28px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.partners_logo {
+    width: 342px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.page_title {
+    min-width: 600px;
+    text-align: center;
+    margin: 54px 0 40px 0;
+    font-size: 22px;
+}
+
+.inner {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.join_form {
+    height: auto;
+}
+
+.join_form input {
+    outline: none;
+    box-sizing: border-box;
+}
+
+.join_form .box_01 {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.join_form .box_01 div {
+    position: relative;
+    margin-top: 20px;
+    height: 50px;
+    width: 600px;
+}
+
+.join_form div:first-child {
+    margin-top: 0;
+}
+
+.join_form div label {
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.join_form .box_01 div input {
+    position: absolute;
+    left: 160px;
+    width: 440px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #cbcbcb;
+    text-indent: 20px;
+
+}
+
+.join_form input[type=submit],
+.join_form input[type=checkbox] {
+    cursor: pointer;
+}
+
+.join_form div input.user_number,
+.join_form div input.check_number {
+    width: 320px;
+}
+
+.join_form div input.user_number_btn,
+.join_form div input.check_number_btn {
+    width: 115px;
+    background: #396ef8;
+    text-indent: inherit;
+    right: 0;
+    left: inherit;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.join_form .box_02 {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 154px 0;
+}
+
+.join_form .box_02 div {
+    position: relative;
+    height: 40px;
+    margin-top: 10px;
+    width: 600px;
+    line-height: 40px;
+}
+
+.join_form .box_02 div:first-child {
+    margin-top: 20px;
+}
+
+
+.join_form .box_02 div input {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 160px;
+    box-sizing: border-box;
+}
+
+.join_form input[type="checkbox"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    opacity: 0;
+    z-index: 10;
+}
+
+.join_form input[type="checkbox"] + label {
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.join_form input[type="checkbox"] + label:before{
+    content: "  ";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: -2px 20px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    background: url(../../fileF/checkbox/check-mark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.join_form input[type="checkbox"]:checked + label:before{
+    background: url(../../fileF/checkbox/check-mark01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.join_form .box_02 div p {
+    position: absolute;
+}
+
+.join_form .box_02 div label {
+    position: absolute;
+    left: 160px;
+    font-size: 14px;
+    line-height: 40px;
+}
+.join_form .box_02 div label span{
+    color: #4d7cf4;
+}
+
+
+.join_form .box_02 div a {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    color: #2348a3;
+}
+
+.join_form .box_02 input.partners_join_btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 50px;
+    background: #396ef8;
+    border: 0;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+

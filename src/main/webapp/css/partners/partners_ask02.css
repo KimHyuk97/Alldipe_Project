@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+
+/* ================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 40px 40px 190px 40px ;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:40px ;
+}
+.must{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 18px;
+}
+.content{
+    width: 1415px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    padding: 30px 18px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.content_txt p{
+    display: inline-block;
+    width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content_txt input{
+    display: inline-block;
+}
+.box01{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    color: #737373;
+    border-radius: 3px;
+}
+.box02{
+    width: 398px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    color: #737373;
+    border:1px solid #737373;
+    border-radius: 3px;
+}
+.box03{
+    width: 1061px;
+    height: 484px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    color: #737373;
+    border:1px solid #737373;
+    border-radius: 3px;
+}
+.box04{
+    margin-bottom: 30px;
+}
+.check{
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.check01{
+    margin-left: 0;
+}
+.password{
+    width: 117px;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    color: #737373;
+    border:1px solid #737373;
+    border-radius: 3px;
+}
+.agree_box{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.agree_box input{
+    margin-right: 10px;
+}
+.agree_box .checkbox02{
+    margin-left: 40px;
+}
+.agree_box a{
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.button_box{
+    position: relative;
+}
+.button_box button{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #396ef3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

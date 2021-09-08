@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+
+/* ================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont_main{
+    padding: 20px;
+}
+
+
+.top_tit{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.top .money_use{
+    position: relative;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #000;
+    margin-bottom: 40px;
+}
+.top .money_use p{
+    display: inline-block;
+    color: #396ef3;
+    
+}
+.top .money_use a{
+    display: inline-block;
+    background-color: #396ef3;
+    border: none;
+    padding: 5px 17px;
+    margin-bottom: 5px;
+    margin-right:14px ;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.top .money_use .charge{
+    position: absolute;
+    top: 9px;
+    right: -1px;
+}
+.top .money_use .refund{
+    position: absolute;
+    top: 9px;
+    right: 145px;
+}
+.card_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.card_wrap .money_card{
+    width: 381px;
+    height: 70px;
+    margin-bottom: 40px;
+    padding-top: 12px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.card_wrap .money_card p{
+    display: inline-block;
+    text-align: center;
+}
+.card_wrap .money_card .spare{
+    margin-bottom: 12px;
+}
+.card_wrap .money_card .card_blue{
+    color: #396ef3;
+    font-weight: bold;
+}
+.card_wrap .money_card span{
+    display: inline-block;
+    text-align: center;
+}
+
+.bottom{
+    margin: 0 0 70px;
+}
+.bottom .bottom_tit{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 29px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+}
+
+.list_box .list01{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: #bebebe;
+    margin-bottom:10px ;
+}
+.list_box .list01 li{
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.list_box .list01 li:hover{
+    background-color: #e6e6e6;
+    border-bottom: none;
+    border-top: 1px solid #000 ;
+    border-right: 1px solid #000 ;
+    border-left: 1px solid #000 ;
+    transition: all 0.3ms ease;
+}
+.list_box .list02{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: #ececec;
+    margin-bottom:10px ;
+}
+.list_box .list02 li{
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    border: 1px solid #898989;
+    border-right: none;
+}
+.list_box .list02 li:last-child{
+    border-right: 1px solid #898989;
+}
+.list_txt_box{
+    height: 230px;
+    border: 1px solid #898989;
+    margin-bottom: 50px;
+}
+.bottom_btn{
+    text-align: center;
+}
+.bottom_btn a{
+    background-color: #fff;
+    border: 2px solid #d1d1d1;
+    border-radius: 8px;
+    padding: 16px 36px ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom_btn a:first-child{
+    margin-right: 14px;
+}
+.bottom_btn a:hover{
+    color: #fff;
+    background-color: #396ef3;
+    border: none;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.container{
+	width:800px;
+	margin:0 auto;
+}
+
+#orderlist{
+	width:100%;
+}
+
+#orderlist tr{
+	height: 100px;
+}

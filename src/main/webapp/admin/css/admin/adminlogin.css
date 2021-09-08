@@ -1,0 +1,11 @@
+@charset "utf-8";
+.adminContainer{width: 100%; height: 100%; background: rgba(0,0,0,0); position: fixed; top: 0; left: 0; bottom:0; right:0;}
+.adminModal{display:block; border: 1px solid #f4f4f4; background: #fff; width: 380px; height: 480px; box-shadow: -2px 1px 20px 2px grey; border-radius: 10px; padding: 30px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); msTransform: translate(-50%, -50%); webkitTransform: translate(-50%, -50%);}
+.adminLog{text-align: center; padding-bottom: 25px; border-bottom: 1px solid #dddd;}
+.adminLog h1{font-weight: bold; color:#396ef3;}
+.adminContent{display: flex; flex-direction: column; height: 340px; justify-content: space-between; align-items: center; margin-top: 10px;}
+.adminContent input[type="text"], input[type="password"]{padding-left: 10px; width: 350px; height: 45px; border-radius: 5px; border: 1px solid #e5e5e5; outline-color: #ddd;}
+.adminText {display: flex; flex-direction: column; height: 200px; justify-content: space-between;}
+.adminText p{font-size:14px;}
+.loginCheck{font-size: 14px; margin-top: 10px;}
+.adminContent input[type="button"]{width:200px; height: 45px; color:#fff; background: #396ef3; font-size:16px; font-weight:bold; border-radius: 5px; border: 1px solid #e5e5e5; outline: none;}

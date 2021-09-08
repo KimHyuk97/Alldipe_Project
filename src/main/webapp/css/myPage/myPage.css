@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 회원등급,쿠폰,포인트,적립금 */
+.myPageContainer{display:flex; flex-direction:column;}
+.myPageImpormation{width:100%; background:#e5e5e5;}
+.impormationBox{width: 1200px; height: 300px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; background: #e5e5e5;}
+.impormationBox li{width: 17%; height: 100px; background: #fff; display: flex; flex-direction: column; justify-content: space-around; align-items: center; padding: 55px 0; border-radius: 3px;}
+.impormationBox li:nth-child(1){width: 42%; height: 150px; background: #fff; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; padding: 30px;}
+.text01{font-size: 18px; font-weight: bold;}
+.text02{font-size: 20px; color: #396ef3; font-weight: bold;}
+.memberImpormation{display:flex;}
+.memberContent{display: flex; flex-direction: column; justify-content: space-between; width: 41%; margin-left: 20px; height: 150px;}
+.memberImpormationBtn{width: 260px; display: flex; justify-content: space-between;}
+.memberImpormationBtn a{border-radius: 50px; background: #e5e5e5; padding: 3px 16px; font-size: 18px;}
+
+/*세부내용*/
+.myPageImpormation02{width:1200px; margin:0 auto; display:flex;}
+.myPageTitle{display:flex; flex-direction:column;}
+.myPageTitle02{margin:40px 0;}
+.myPageTitle02 h1{font-size:28px; font-weight:bold; color:#333;}
+.myPageTitle03{display: flex; flex-direction: column; border: 1px solid #f2f2f2;}
+.myPageTitle03 li{border-bottom: 1px solid #f2f2f2; position: relative; padding: 15px 90px 15px 15px; cursor: pointer;}
+.myPageTitle03 .on{background:#f2f2f2; color:#396ef3;}
+.myPageTitle03 li:hover,.myPageTitle03 li .go:hover{background:#f2f2f2; color:#396ef3;}
+.myPageAsk{display:flex; margin: 20px 0; background: #f2f2f2; border-radius: 0 100px 100px 0;}
+.myPageTitle03 .go{color: #ddd; position: absolute; right: 7px; top: 5px; font-weight: bold; font-size: 25px;}
+.myPageAsk{position:relative; padding: 5px 15px; cursor: pointer;}
+.myPageAsk > div > .go{position: relative; left: 8px; color: #396ef3; font-weight: bold; font-size: 25px;}
+.myPageAsk .text03{font-weight: bold; line-height: 25px; letter-spacing: -0.5px;}
+.myPageAsk .text04{font-size:12px;}
+
+#content02,#content03,#content04,#content05,#content06,#content07,#impromationForm02{display:none;}
+
+.d2{display:flex; justify-content:space-between; align-items: flex-end;}/*배송지관리*/
+
+.myPageContent{width:978px; height:500px; display:flex; flex-direction:column; margin: 20px 0 20px 40px;}
+.contentTitle{padding:20px 0 44px 0;}
+.contentTitle h1{font-size:24px; font-weight:bold; color:#333;}
+
+table{width:100%; border-top: 1px solid;}
+table tr{border-top:1px solid; height: 50px;}
+table tr th{padding:10px 0; vertical-align: middle; text-align: center;}
+table tr td {vertical-align: middle; border-bottom: 1px solid #f4f4f4; text-align: center;}
+td.noData{padding:50px 0;font-size: 13px; color: #757575;}
+ 
+
+/* 주문내역 */
+
+/*배송지*/
+.noDelivery{height:80px; text-align:center; font-size:18px; width:100%;}
+#deAdd,#deModify{display:none; position: absolute; width: 500px; height: 400px; border: 1px solid; background: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#addAddress{cursor: pointer;}
+.deliveryTable table tfoot tr{height: 80px;}
+
+/*상품후기*/
+.reviewFlex{display: flex; justify-content: space-around; align-items: center;}
+.reviewFlex li{width: 50%; text-align: center; height: 50px; line-height: 50px; border:1px solid #f4f4f4;}
+
+#reviewBefore{display:none;}
+.reviewFlex .on{color:#396ef3; border:1px solid #396ef3;}
+
+.reviewView{margin-top:20px;}
+
+/*정보수정*/
+.sub2,.sub3,.sub4,.sub5{display:none;}
+.subView{display:table-cell; padding: 5px 20px;}
+
+

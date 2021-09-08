@@ -1,0 +1,441 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;}
+button{
+    cursor: pointer;
+}
+/* ================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px 20px 190px 20px ;
+}
+.title{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:38px ;
+}
+button{
+    cursor: pointer;
+}
+.title p{
+    position: relative;
+}
+.title p button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: none;
+}
+.title .top_txt_box{
+    display: inline-block;
+    width: 49%;
+    margin-top: 30px;
+    border: 2px solid #bebebe;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.title .top_txt_box .top_txt_in{
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    padding: 30px 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.title .top_txt_box .top_txt_in h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 29px;
+    
+}
+.title .top_txt_box .top_txt_in h3 p{
+    display: inline-block;
+    
+}
+.title .top_txt_box .top_txt_in img{
+    position: absolute;
+    top: 40px;
+    left: 47px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 18px;
+    background-color: #000;
+    
+}
+.title .top_txt_box .top_txt_in02{
+   border-left: 1px solid #9a9a9a;
+}
+
+.title .top_txt_box:nth-child(2){
+    width: 49%;
+}
+
+#list_table{
+	width: 100%;
+}
+
+
+.title .top_txt_box .top_txt_in:nth-child(2){
+    width: 48%;
+    
+}
+.title .top_txt_box .top_txt_in p{
+    margin-top: 14px;
+    color:#396ef3 ;
+}
+.title .top_txt_box .top_txt_in01{
+    line-height: 20px;
+
+}
+.title .top_txt_box .top_txt_in02{
+    display: inline-block;
+    height: 164px;
+    line-height: 20px;
+}
+
+.title .top_txt_box .p_title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.title .top_txt_box .p_txt{
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.top_btn{
+	text-align: right;
+	margin-bottom: 20px;
+}
+.top_btn button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid #a7a7a7 ;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+}
+.top_btn button:hover{
+    color: #fff;
+    background-color: #396ef3;
+}
+/* ====================== 검색 조건 ==================== */
+
+.top_wrap{
+	display: flex;
+	flex-direction: column;
+	border-top:2px solid #a7a7a7;
+	border-bottom:2px solid #a7a7a7;
+	padding: 20px 50px;
+}
+.top_cont{
+	display:flex;
+	margin-bottom: 20px;
+	height:30px;
+	line-height: 30px;
+}
+.top_cont:LAST-CHILD{
+	margin-bottom: 0;
+}
+
+.tit{
+	width: 100px;
+	margin-right: 25px;
+}
+
+.srch_input{
+	width:180px;
+	padding-left: 5px;
+	margin: 0 10px;
+}
+.srch_select{
+	width:130px;
+	margin-right: 40px;
+}
+
+.top_cont button{
+	padding:0 5px;
+}
+.top_cont button:FIRST-CHILD{
+	margin-left: 30px;
+}
+.color_span{
+	color:#396ef3;
+	font-weight: bold;
+}
+
+/* ====================== 검색 조건 ==================== */
+.bottom_wrap{
+    margin-top: 70px;
+}
+.btm_tit{
+    position: relative;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.btm_tit p{
+    display: inline-block;
+    font-weight: bold;
+    color: #396ef3;
+}
+.btm_tit select{
+    width: 84px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2px;
+}
+.btm_tit .exel01{
+    position: absolute;
+    top: 0;
+    right: 92px;
+}
+.btm_tit .download{
+    position: absolute;
+    top: 0;
+    right: 92px;
+    color: #396ef3;
+    border: 1px solid #396ef3;
+}
+.btm_tit .exel02{
+    position: absolute;
+    top: 0;
+    right: 91px;
+}
+.btm_tit button{
+    width: 133px;
+    height: 31px;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.bottom_wrap .main{
+    width: 1420px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-weight: bold;
+}
+.bottom_wrap .main tr{
+   
+}
+.bottom_wrap .main tr td{
+    border: 2px solid #a7a7a7;
+    border-bottom: 2px solid #000;
+}
+.bottom_wrap .main tr td:first-child{
+    width:100px ;
+}
+.bottom_wrap .main tr td:nth-child(2){
+    width:150px ;
+}
+.bottom_wrap .main tr td:nth-child(3){
+    width:140px;
+}
+.bottom_wrap .main tr td:nth-child(4){
+    width: 250px;
+}
+.bottom_wrap .main tr td:nth-child(5){
+    width: 210px;
+}
+.bottom_wrap .main tr td:nth-child(6){
+    width: 140px;
+}
+.bottom_wrap .main tr td:nth-child(7){
+    width:140px ;
+}
+.bottom_wrap .main tr td:nth-child(2n){
+    background-color: #e0ffc7;
+}
+.bottom_wrap .main tr td:nth-child(2n-1){
+    background-color: #fad2db;
+}
+.bottom_wrap .main02 tr td:nth-child(1){
+    width: 140px;
+}
+.bottom_wrap .main02 tr td:nth-child(4){
+    width: 170px;
+}
+.bottom_wrap .cont{
+    width: 1420px;
+    border: 1px solid #a6a6a6;
+    height: 43px;
+    
+}
+.bottom_wrap .cont tr td{
+    background-color: #fff;
+}
+
+.btn_wrap button{
+	background-color: #fff;  
+	border: 1px solid #000;
+	border-radius: 2px;
+	margin-right: 10px;
+	padding:0 10px;
+	height: 30px;
+}
+
+.btn_wrap{
+	margin-bottom: 10px;
+}
+
+.btn_wrap button:hover{
+    background-color: #396ef3;
+    border: 1px solid #396ef3;
+    color: #fff;	
+}
+
+.bottom_wrap .main tr td .square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-left: 40%;
+}
+
+/* ======================================= */
+
+#main_table{
+	display:flex;
+	align-items:center;
+	height:43px;
+	line-height: 43px;
+	text-align: center;
+	font-weight: bold;
+	background-color:#396ef3;
+	border-bottom: 2px solid #a7a7a7;
+}
+
+#main_table div{
+	color:#fff;
+	border-left: 1px solid #a7a7a7;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.list_col1{
+	width: 3%;
+	display: flex;
+	align-items : center;
+	justify-content:center;
+}
+.list_col2{
+	width:5%;
+}
+.list_col3{
+	width:13%;
+}
+.list_col4{
+	width:4%;
+}
+.list_col5{
+	width:13%;	
+}
+.list_col6{
+	width:8%;	
+}
+.list_col7{
+	width:8%;	
+}
+.list_col8{
+	width:26%;
+}
+.list_col9{
+	width:10%;	
+}
+.list_col10{
+	width:5%;	
+}
+.list_col11{
+	width:8%;	
+}
+
+
+
+.orderList{
+    width: 1460px;
+    border-left: 2px solid #a6a6a6;
+    border-right: 2px solid #a6a6a6;
+    border-bottom: 2px solid #a6a6a6;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#list_table{
+	overflow-y:scroll;
+	max-height: 600px;
+	overflow: auto;
+	text-align: center;
+}
+
+.orderList_tr{
+	display:flex;
+	width:1456px;
+	height:50px;
+	line-height: 50px;
+	overflow: hidden;
+	font-size: 13px;
+	border-bottom: 1px solid #a7a7a7;
+}
+
+.orderList_tr span{
+	width: 100%;
+}
